@@ -1,0 +1,42 @@
+
+footer{background: #f5f5f5;}
+footer .margin{width: 1200px;margin: 0 auto}
+footer .margin .special{display: flex;border-bottom: 1px solid #999;}
+footer .margin .special li{flex: 1;}
+footer .margin .special li a{display: block;display: flex;align-items: center}
+footer .margin .special li a i{width: 61px;height: 61px;background: url(../img/logo.png) no-repeat;}
+footer .margin .special li a span{font:700 20px/61px "";margin: 20px 0 20px 5px;}
+footer .margin .special li:nth-child(2) a i{background-position:0 -81px ;}
+footer .margin .special li:nth-child(3) a i{background-position: 0 -162px;}
+footer .margin .special li:nth-child(4) a i{background-position: 0 -243px;}
+footer .margin .special li:nth-child(5) a i{background-position: 0 -324px;}
+footer .margin .special li:nth-child(6) a i{background-position: 0 -405px;}
+
+footer .margin .serve{display: flex;color: #444;justify-content: space-between;padding:40px 0;border-bottom: 1px solid #999}
+footer .margin .serve .serL{display: flex;margin-left: 40px}
+footer .margin .serve .serL img{width: 105px;height: 99px;}
+footer .margin .serve .serL .tel{margin-left: 10px}
+footer .margin .serve .serL .tel h3{font:600 16px/2 "";}
+footer .margin .serve .serL .tel p{font:600 16px/2 "";}
+footer .margin .serve .serL .tel .call{font:600 16px/2 "";}
+footer .margin .serve .serL .tel p i{font:10px "";}
+footer .margin .serve .serL .tel em{font:10px/2 "";display: block}
+
+footer .margin .serve .distri{display: flex}
+footer .margin .serve .distri dl{margin: 0 20px;}
+footer .margin .serve .distri dl dt{font:600 16px/2 "";}
+footer .margin .serve .distri dl dd{font:14px/2 "";}
+
+footer .margin .eq{display:flex;}
+footer .margin .eq div{margin:0 10px;}
+footer .margin .eq div p{width: 92px;text-align: center;font:14px/2 "";}
+
+footer .margin .net{padding: 10px 0;}
+footer .margin .net .web{display: flex;margin-left: 20px;}
+footer .margin .net .web dt{}
+footer .margin .net .web dd{margin-left: 10px;}
+footer .margin .net .pic{display: flex;margin-top:10px;justify-content: center}
+footer .margin .net .pic li{margin:0 5px;}
+footer .margin .net .pic li a{display: block}
+footer .margin .net .copy{display: flex;margin-top:10px;justify-content: center}
+footer .margin .net .copy a{margin: 0  4px;}

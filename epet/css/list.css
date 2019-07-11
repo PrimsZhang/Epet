@@ -1,0 +1,11 @@
+#main{background: #f5f5f5;}
+#main .margin{width: 1200px;margin:0 auto;}
+#main .margin .cla{display: flex;}
+#main .margin .cla select{display: block;font:15px/20px "";margin: 20px 10px;width:100px;}
+
+#main .margin .list{}
+#main .margin .list dl{background: #fff;width: 150px;text-align: center;cursor: pointer;}
+#main .margin .list dl dt{font:700 15px/2 "";}
+#main .margin .list dl dd a{display: flex}
+#main .margin .list dl dd{font:15px/2 "";border-top: 1px solid #ccc;margin:0 10px;}
+#main .margin .list dl dd i{display: block;width: 30px;height: 30px;background:url(../img/milk.jpg) no-repeat;margin: 5px 0;}

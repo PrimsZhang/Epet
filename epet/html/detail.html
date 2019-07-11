@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+<body>
+        <!-- 这是登录的部分 -->
+    <div id="top">
+        <div class="margin">
+            <!-- 这是左边评价部分 -->
+            <div class="home">
+                <div class="hom-home">
+                    <span></span>
+                    <a href="#">E宠首页</a>
+                </div>
+                <div class="hom-address">
+                    <span>送至：</span>
+                    <div>重庆</div>
+                    <i>></i>
+                </div>
+                <div class="hom-line">
+                    <span></span>
+                    <a href="#">E宠就是正品</a>
+                </div>
+                <a href="#" class="hom-evalu">
+                    <span>评价</span>
+                    <p>(<i>620.2万</i>)</p>
+                </a>
+            </div>
+    
+            <!-- 这是右边登录部分 -->
+            <div class="login">
+                <div class="log-in">[登录/注册]</div>
+                <div class="log-shopcar">
+                    <i></i>
+                    <a href="#">购物车</a>
+                    (<span>0</span>)
+                </div>
+                <div class="log-mypet">
+                    <i></i>
+                    <a href="#">我的E宠</a>
+                    <span></span>
+                </div>
+                <div class="log-collect">
+                    <i></i>
+                    <a href="#">收藏</a>
+                    <span></span>
+                </div>
+                <div class="log-phone">
+                    <i></i>
+                    <a href="#">收藏</a>
+                </div>
+                <a href="#" class="log-feedback">问题反馈</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 这是搜索框和主菜单部分 -->
+    <header>
+        <div class="head-t">
+            <div class="search">
+                <a href="#" class="logo">
+                    <img src="../img/epet-logo.png" alt="">
+                </a>
+    <!-- 搜索框在这呢 -->
+                <div class="box">
+                    <div class="search-box">
+                        <input type="text"/>
+        <!-- 搜索按钮在这块子 -->
+                        <div>搜索</div>
+                    </div>
+                    <dl class="hotword">
+
+    <!-- 111111111111111这里好像是数据渲染出来的，后面要改 -->
+                        <dt>热门搜索：</dt>
+                        <dd>
+                            <a href="#">哈士奇</a>
+                            <span>|</span>
+                        </dd>
+                        <dd>
+                            <a href="#">战神</a>
+                            <span>|</span>
+                        </dd>
+                        <dd>
+                            <a href="#">鲜肉粮</a>
+                            <span>|</span>
+                        </dd>
+                        <dd>
+                            <a href="#">罐头</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <a href="#" class="shopcar">
+                <img src="../img/shopping-cart.gif" alt="">
+                <div>
+                    <p>购物车(<span>0</span>)</p>
+                </div>
+            </a>
+        </div>
+        <div class="head-b">
+<!-- 这是三级菜单的触发元素 -->
+            <div class="menu">
+                <div class="dog">
+                    <span>狗狗</span>
+                    <i></i>
+                </div>
+
+                <div class="classify">
+                    <span>商品分类</span>
+                    <i></i>
+                </div>
+            </div>
+<!-- 这是banner图上的几个网页链接 -->
+            <div class="active">
+                <a href="#" class="global">
+                    <img src="../img/epethk-logo.png" alt="">
+                </a>
+
+
+<!-- 1111111111111111这里好像是要用数据渲染出来的，后面再改吧 -->
+                <ul>
+                    <li><i></i><a href="#">品牌特卖</a></li>
+                    <li><i></i><a href="#">潮品视频</a></li>
+                    <li><i></i><a href="#">小剧场</a></li>
+                    <li><i></i><a href="#">宠物课堂</a></li>
+                    <li><i></i><a href="#">萌爪联盟</a></li>
+                    <li><i></i><a href="#">清仓特价</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- 这是 商品详情部分 -->
+    <div id="product">
+<!-- 这是结合滑动切换图片的放大镜效果  在main.js文件触发公用的滑动切换功能 -->
+        <div id="picBox">
+<!-- 这是滑动切换的大图 -->
+            <div class="photoB">
+
+                <div class="pic" id="magfBox">
+                    <div class="smallPic">
+                        <img src="../img/pic1b.jpg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="bigPic">
+                        <img src="../img/pic1b.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="pic" id="magfBox2">
+                    <div class="smallPic">
+                        <img src="../img/pic2b.jpg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="bigPic">
+                        <img src="../img/pic2b.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="pic" id="magfBox3">
+                    <div class="smallPic">
+                        <img src="../img/pic3b.jpg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="bigPic">
+                        <img src="../img/pic3b.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="pic" id="magfBox4">
+                    <div class="smallPic">
+                        <img src="../img/pic4b.jpg" alt="">
+                        <span></span>
+                    </div>
+                    <div class="bigPic">
+                        <img src="../img/pic4b.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+<!-- 这是用作滑动列表的小图 -->
+            <ul class="photoS">
+                <li><img src="../img/pic1.jpg" alt=""></li>
+                <li><img src="../img/pic2.jpg" alt=""></li>
+                <li><img src="../img/pic3.jpg" alt=""></li>
+                <li><img src="../img/pic4.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="intru">
+            <h3>比瑞吉俱乐部 天然健康膳食配方 成犬粮 10kg</h3>
+            <h4>高性价比 促进消化 强健骨骼</h4>
+            <div class="price">
+                <div class="p1">
+                    <span>市场价 ： </span>
+                    <i>¥657.00</i>
+                </div>
+                <div class="p2">
+                    <span>E宠价 ： </span>
+                    <i>￥ 269.00</i>
+                </div>
+            </div>
+            <div class="sale">
+                <p>正在促销：</p>
+                <a href="#">
+                    <em>集体买赠</em>
+                    <p>两件商品一件价，丰富商品随便选</p>
+                    <i>点击参与</i>
+                </a>
+            </div>
+            <div class="saleNum">
+                <p>已售：<span>1444</span>袋</p>
+                <p>评价：<span>14256</span>袋</p>
+                <a href="#">咨询：<span>1444</span>袋</a>
+            </div>
+            <div class="buyNum">
+                <span>我要买：</span>
+                <input type="text" value=""/>
+                &nbsp;个
+            </div>
+            <div class="address">
+                <span>送货至：</span>
+                <input type="text" value="">
+            </div>
+            <p class="explain">E宠快递15点前下单，其他快递16点前下单，当天发货。</p>
+            <a href="#" class="buy">加入购物车</a>
+        </div>
+    </div>
+
+    <div id="detail">
+        <div class="ad">
+            <img src="../img/ad.jpg" alt="">
+            <div class="int">
+                <i><img src="../img/icon (2).png" alt=""></i>
+                <div class="tip">
+                    <h4>比瑞吉Nature Bridge</h4>
+                    <h3>支持E宠，支持正品</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="tab-menu">
+                <ul>
+                    <li>商品详情</li>
+                    <li>商品参数</li>
+                    <li>评价（1314）</li>
+                    <li>咨询（520）</li>
+                    <li>正品保证</li>
+                </ul>
+            </div>
+            <div class="tab-box">
+                <div>
+                    <div class="top">
+                        <div class="brand">
+                            <div class="braDetail">
+                                <a href="#"><img src="../img/brand1.jpg" alt=""></a>
+                                <div>
+                                    <h3>
+                                        <a href="#">比瑞吉Nature Bridge品牌馆</a>
+                                        <span>关注</span>
+                                    </h3>
+                                    <div class="brandNum">
+                                        <a href="#"><i></i>(2)</a>
+                                        <a href="#"><i></i>(11)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="braAddress">
+                                <p>生产地：<span>中国</span></p>
+                                <p>品牌起源地：<span>中国</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <h3>包装说明：包装升级替换中，新老包装随机发送</h3>
+                        <img src="../img/brand2.png" alt="">
+                    </div>
+                </div>
+                
+                <div>
+                    <table>
+                        <tr>
+                            <td>参数名称</td>
+                            <td>产品参数</td>
+                        </tr>
+                        <tr>
+                            <td>主要成分</td>
+                            <td>鸡肉、鱼肉、玉米</td>
+                        </tr>
+                        <tr>
+                            <td>成份含量</td>
+                            <td>粗蛋白质≥26%，粗脂肪≥12.5%，钙≥1.0%，食盐≤1.2%</td>
+                        </tr>
+                        <tr>
+                            <td>年龄</td>
+                            <td>成犬期</td>
+                        </tr>
+                        <tr>
+                            <td>体型</td>
+                            <td>全体型</td>
+                        </tr>
+                        <tr>
+                            <td>颗粒大小</td>
+                            <td>小颗粒 ▼</td>
+                        </tr>
+                        <tr>
+                            <td>主要配方</td>
+                            <td>鱼肉、鸡肉 ▼</td>
+                        </tr>
+                    </table>
+                </div>
+                <div></div>
+                <div></div>
+                <div>
+                    <h3>授权文件</h3>
+                    <img src="../img/brand3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="margin">
+            <ul class="special">
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>绝对的正品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>全球的好货</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>自家的仓库</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>自家的配送</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>宠物的帮手</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i></i>
+                        <span>小小的成绩</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="serve">
+                <div class="serL">
+                    <img src="../img/dog_phone.gif" alt="">
+                    <div class="tel">
+                        <h3>售后电话</h3>
+                        <p>4002135125<i>(免长途费)</i></p>
+                        <span class="call">202-456215</span>
+                        <em>服务时间：09:00-18:30（周一到周日）</em>
+                    </div>
+                </div>
+                
+                 <div class="distri">
+                     <dl>
+                         <dt>支付方式</dt>
+                         <dd><a href="#">货到付款</a></dd>
+                         <dd><a href="#">余额支付</a></dd>
+                         <dd><a href="#">在线支付</a></dd>
+                     </dl>
+                     <dl>
+                         <dt>配送方式</dt>
+                         <dd><a href="#">E宠快递</a></dd>
+                         <dd><a href="#">外包快递</a></dd>
+                         <dd><a href="#">物流运输</a></dd>
+                         <dd><a href="#">公司地址</a></dd>
+                     </dl>
+                     <dl>
+                         <dt>购物指南</dt>
+                         <dd><a href="#">退换货政策</a></dd>
+                         <dd><a href="#">常见问题</a></dd>
+                         <dd><a href="#">用户协议</a></dd>
+                     </dl>
+                     <dl>
+                        <dt>关于我们</dt>
+                        <dd><a href="#">关于我们</a></dd>
+                        <dd><a href="#">仓储中心</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">应急响应</a></dd>
+                    </dl>
+                 </div>
+    
+                 <div class="eq">
+                     <div>
+                         <p>扫描下载APP下单更优惠</p>
+                         <img src="../img/dw2.png" alt="">
+                     </div>
+                     <div>
+                        <p>扫描关注E宠微信商城</p>
+                        <img src="../img/dw2.png" alt="">
+                    </div>
+                 </div>
+            </div>
+
+            <div class="net">
+                <dl class="web">
+                    <dt>友情链接:</dt>
+                    <dd><a href="#">E宠物</a></dd>
+                    <dd><a href="#">淘宝网</a></dd>
+                    <dd><a href="#">京东</a></dd>
+                    <dd><a href="#">苏宁易购</a></dd>
+                    <dd><a href="#">VIP</a></dd>
+                    <dd><a href="#">宠物狗</a></dd>
+                    <dd><a href="#">重庆宠物顾问</a></dd>
+                    <dd><a href="#">兽药网</a></dd>
+                    <dd><a href="#">淘宝网</a></dd>
+                    <dd><a href="#">京东</a></dd>
+                    <dd><a href="#">苏宁易购</a></dd>
+                    <dd><a href="#">VIP</a></dd>
+                    <dd><a href="#">宠物狗</a></dd>
+                </dl>
+
+                <ul class="pic">
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                    <li><a href="#"><img src="../img/12315.png" alt=""></a></li>
+                </ul>
+
+                <div class="copy">
+                    <a href="#">渝ICP备10002905号-1</a>
+                    <a href="#">渝ICP备10002905号-3</a>
+                    <a href="#">营业执照</a>
+                    <a href="#">兽药经营许可证</a>
+                    <p>增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2018 epet.com 　重庆易宠科技有限公司</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+    <script src="../libs/jquery.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/magnifie.js"></script>
+    <script src="../js/detail.js"></script>
+</html>

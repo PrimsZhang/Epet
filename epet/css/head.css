@@ -1,0 +1,65 @@
+a:hover{color: cornflowerblue}
+/* 这是登录的部分 */
+#top{height:28px;background:#f5f5f5;border-bottom:1px solid #ddd;font:10px/21px "";}
+#top .margin{width:1200px;height:28px;margin:0 auto;display:flex;justify-content:space-between;}
+#top .margin .home{display: flex;margin-left:6px;}
+#top .margin .home .hom-home{display: flex;align-items:center}
+#top .margin .home .hom-home span{width:13px;height:12px;background:url(../img/icon.png) no-repeat;background-position:-97px -48px;}
+#top .margin .home .hom-home a{margin-left:5px;}
+#top .margin .home .hom-address{display:flex;align-items:center;margin-left:13px;}
+#top .margin .home .hom-address div{}
+#top .margin .home .hom-address i{transform: rotate(90deg);margin:0 7px;}
+#top .margin .home .hom-line{display:flex;align-items: center;}
+#top .margin .home .hom-line span{width:13px;height:12px;background:url(../img/icon.png) no-repeat;background-position:-134px -12px;margin-left:7px;}
+#top .margin .home .hom-line a{margin-left:7px;}
+#top .margin .home .hom-evalu{display:flex;align-items: center;}
+#top .margin .home .hom-evalu span{margin-left: 13px;}
+#top .margin .home .hom-evalu i{color:#ff6600;}
+
+/* 这是右边登录部分 */
+#top .margin .login{display: flex;align-items: center;margin-right:5px;}
+#top .margin .login .log-in{cursor: pointer;}
+#top .margin .login .log-out{margin-left:10px;cursor: pointer;}
+#top .margin .login .log-shopcar{margin-left:10px;display:flex;align-items: center}
+#top .margin .login .log-shopcar i{width:14px;height:13px;background:url(../img/icon.png) no-repeat;background-position:0 -63px;}
+#top .margin .login .log-shopcar a{margin-left:5px;}
+#top .margin .login .log-shopcar span{color:#ff6600;}
+#top .margin .login .log-mypet{margin-left:12px;display:flex;align-items: center}
+#top .margin .login .log-mypet i{width:11px;height:13px;background:url(../img/icon.png) no-repeat;background-position:-24px -63px;margin-right:4px;}
+#top .margin .login .log-mypet span{width:8px;height:4px;background:url(../img/bg2.png) no-repeat;background-position:-41px -166px;margin-left:5px}
+#top .margin .login .log-collect{margin-left:10px;display:flex;align-items: center}
+#top .margin .login .log-collect i{width:14px;height:13px;background:url(../img/icon.png) no-repeat;background-position:-64px -63px;margin-right:4px;}
+#top .margin .login .log-collect span{width:8px;height:4px;background:url(../img/bg2.png) no-repeat;background-position:-41px -166px;margin-left:5px}
+#top .margin .login .log-phone{margin-left:11px;display:flex;align-items: center}
+#top .margin .login .log-phone i{width:9px;height:14px;background:url(../img/icon.png) no-repeat;background-position:-47px -62px;margin-right:4px;}
+#top .margin .login .log-feedback{color:#ff6600;margin-left: 10px;}
+
+header{width: 1200px;margin:0 auto;}
+header .head-t{display: flex;height:119px;justify-content: space-between}
+header .head-t .search{display: flex;justify-content: space-between}
+header .head-t .search .logo{margin:19px 0 0 48px;display: block}
+header .head-t .search .box{margin:34px 0 0 121px;}
+header .head-t .search .box .search-box{display: flex;}
+header .head-t .search .box .search-box input{border:2px solid #459d36;width:387px;height:30px;font:14px/30px "";color:#999;padding-left:15px;}
+header .head-t .search .box .search-box div{width:74px;height:34px;background:#459d36;font:16px/30px "";text-align: center;color:#fff;}
+header .head-t .search .box .hotword{display: flex;height:37px;font:12px/37px "";}
+header .head-t .search .box .hotword dd span{margin:0 11px;}
+header .head-t .shopcar{margin-top:34px;position: relative;}
+header .head-t .shopcar div{position: absolute;top:15px;right:27px;}
+header .head-t .shopcar div span{color:#ff6600}
+
+header .head-b{height:35px;display: flex;}
+header .head-b .menu{display: flex;}
+header .head-b .menu div{display: flex;justify-content: center;align-items: center;width: 112px;height: 32px;border:1px solid #999;font:14px/2 "";text-align: center;}
+header .head-b .menu div i{width:16px;height:13px;background: url(../img/bg2.png) no-repeat;margin-left:5px;}
+header .head-b .menu .dog i{width:16px;height:13px;background-position:-17px -1257px;}
+header .head-b .menu .classify i{width:13px;height:7px;background-position:-17px -1276px;}
+
+
+header .head-b .active{display: flex;}
+header .head-b .active .global{margin-left:25px;}
+header .head-b .active .global img{height:35px;}
+header .head-b .active ul{display: flex;}
+header .head-b .active ul li{margin:0 20px;font:700 16px/35px "";display:flex;align-items:center}
+header .head-b .active ul li i{width:13px;height:17px;background:url(../img/bg2.png) no-repeat;background-position:-35px -1280px;margin-right:6px;}
+header .head-b .active ul a:hover{color:#459d36;}

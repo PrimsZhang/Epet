@@ -1,0 +1,96 @@
+#banner{height:360px;}
+#banner .margin{width: 1200px;margin:0 auto;position: relative;}
+#banner .margin .dog{width:228px;height:358px;background:#fff;position: absolute;top:2px}
+#banner .margin .dog div{height:179px;overflow: hidden;}
+#banner .margin .dog div:nth-child(1){background:rgb(245,245,245);}
+#banner .margin .dog div i{display:block;width:60px;height:60px;background:url(../img/new_petcate.png) no-repeat;margin:20px auto 0;}
+#banner .margin .dog div:nth-child(1) i{background-position:0 0;}
+#banner .margin .dog div:nth-child(2) i{background-position:0 -60px;}
+#banner .margin .dog div P{font:12px/2 "";text-align: center}
+#banner .margin .dog div P span{color:#ff6600}
+#banner .margin .dog div a{display: block;width:108px;height:28px;border:1px solid #ddd;font:12px/28px "";text-align: center;border-radius:5px;margin:0 auto;}
+
+#banner .margin .classify{width:228px;height:358px;background:#fff;position: absolute;top:2px}
+#banner .margin .classify ul{}
+#banner .margin .classify ul li{width:228px;height:51px;background:url(../img/menuLine1.png) no-repeat center bottom;display: flex;align-items: center}
+#banner .margin .classify ul li a{width:88px;height:50px;margin-left:16px;font: 16px/50px "";}
+#banner .margin .classify ul li i{width:5px;height: 6px;background:url(../img/bg2.png) no-repeat;background-position:-27px -1226px;}
+#banner .margin .classify #menuTab{position: relative;}
+#banner .margin .classify #menuTab .menubox{position: absolute;top:0;left:228px;display: none}
+#banner .margin .classify #menuTab .menubox div{width:300px;display: none;box-shadow: 5px 5px 5px #999;background: #fff;display: flex;justify-content: space-around;}
+#banner .margin .classify #menuTab .menubox div dl{margin: 10px 0;width: 150px}
+#banner .margin .classify #menuTab .menubox div dl dt{font:600 15px/40px "";text-align: center;}
+#banner .margin .classify #menuTab .menubox div dl dd{font:15px/35px "";text-align: center;border-top: 1px solid #ccc}
+
+#banner .margin .classify .sale{display: flex;align-items: center}
+#banner .margin .classify .sale i{width:17px;height: 22px;background: url(../img/active.png) no-repeat;margin-left:20px;}
+#banner .margin .classify .sale p{font:12px/50px "";color:#22990d;padding:0 5px;}
+#banner .margin .classify .sale span{width:40px;height:26px;background:#fb6003;font:12px/26px "";color:#fff;text-align: center;border-radius:8px;}
+
+#banner .margin .card{position:absolute;right:0;top:0}
+#banner .margin .card a{display: block}
+
+#banner .margin .ad{width:770px;height:360px;position: relative;margin-left: 228px;overflow: hidden;}
+#banner .margin .ad .imgbox{width:770px;height:360px;}
+#banner .margin .ad .imgbox img{width:770px;height:360px;position: absolute;left:770px;top:0}
+#banner .margin .ad .imgbox img:nth-child(1){left:0;}
+
+main{width:1200px;margin:0 auto;}
+main .goods{width:1200px;margin:20px auto 0;}
+main .goods .title{display: flex;align-items: center;font:600 20px/46px "";height:46px; }
+main .goods .title i{width:30px;height:30px;background: url(../img/cate_5.png) no-repeat;margin-right:5px;}
+
+main .goods .floor{}
+main .goods .floor .listTop{display: flex;width:1200px;}
+main .goods .floor .listTop .listHot{width:328px;position: relative;}
+main .goods .floor .listTop .listHot .ad{display: block;height:477px;}
+main .goods .floor .listTop .listHot .ad img{width:328px;height: 477px;}
+main .goods .floor .listTop .listHot .hot{position: absolute;width:328px;height: 178px;background:#fff;opacity: .7;bottom: 0}
+main .goods .floor .listTop .listHot .hot .hotTop{display: flex;justify-content:center;align-items: center;}
+main .goods .floor .listTop .listHot .hot .hotTop span{width:80px;height:0;border:1px solid #999;margin: 0 5px;}
+main .goods .floor .listTop .listHot .hot .hotTop i{width: 26px;height: 26px;background: url(../img/index-ico.png) no-repeat;background-position: -114px -171px;}
+main .goods .floor .listTop .listHot .hot .hotTop p{font:14px/30px "";}
+main .goods .floor .listTop .listHot .hot ul{margin-top: 10px;width: 100%;overflow: hidden;}
+main .goods .floor .listTop .listHot .hot ul li{width: 87px;float: left;background: #999;border-radius:5px;margin:5px 11px;}
+main .goods .floor .listTop .listHot .hot ul li a{display: block;height: 24px;font:12px/2 "";text-align: center;color: #fff;}
+
+
+main .goods .floor .listTop .listBox{flex:1;margin-top: -31px;}
+main .goods .floor .listTop .listBox .classify{display: flex;justify-content: flex-end;}
+main .goods .floor .listTop .listBox .classify li{width:60px;height: 30px;font:14px/30px "";text-align: center;border:1px solid #ccc;border-bottom: 0;padding: 0 5px}
+main .goods .floor .listTop .listBox .list{border: 1px solid #ccc;border-bottom: 0}
+main .goods .floor .listTop .listBox .list .goodsCard{height: 477px;display: none}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1){display:block}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1){}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop{display: flex}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardFirst{flex: 5;position: relative;border-right: 1px solid #ccc;border-bottom:1px solid #ccc }
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardFirst div{position: absolute;left: 20px;top:40px;z-index: 2;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardFirst p{font:14px/2 "";}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardFirst span{font: 12px/2 "";color:#fb6003;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardFirst img{position: absolute;left: 0;height: 297px;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond{flex:6;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond a{display: block;position: relative;height:148px;border-bottom: 1px solid #ccc;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond div{position: absolute;left: 20px;top:40px;z-index: 2;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond a p{font:14px/2 "";}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond a span{font: 12px/2 "";color:#fb6003;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardTop .cardSecond a img{position: absolute;left: 0;height: 148px;width: 474px}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom{display: flex;margin-top:2px;} 
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom a{flex: 1;display: block;position: relative;height:175px;border-left: 1px solid #ccc;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom p{font:14px/2 "";}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom a span{font: 12px/2 "";color:#fb6003;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom a img{position: absolute;left: 0;}
+main .goods .floor .listTop .listBox .list .goodsCard:nth-child(1) .cardBottom div{position: absolute;left: 20px;top:40px;z-index: 2;}
+
+main .goods .floor .listTop .listBox .list .goodsList{height: 477px;display: none}
+main .goods .floor .listTop .listBox .list .goodsList ul{display: flex;width:872px;flex-wrap: wrap}
+main .goods .floor .listTop .listBox .list .goodsList ul li{border: 1px solid #ccc;width: 216px;height: 238px;}
+main .goods .floor .listTop .listBox .list .goodsList ul li:nth-child(n){border-top: 0;}
+main .goods .floor .listTop .listBox .list .goodsList ul li a{display: block;width: 216px;height: 238px;}
+main .goods .floor .listTop .listBox .list .goodsList ul li a img{width: 138px;height: 138px;margin: 15px 0 0 35px}
+main .goods .floor .listTop .listBox .list .goodsList ul li a p{font: 14px "";padding:0 15px}
+main .goods .floor .listTop .listBox .list .goodsList ul li span{padding-left: 20px;font: 14px "";color: #fb6003;}
+main .goods .floor .listBottom{display: flex;}
+main .goods .floor .listBottom li{flex: 1;border: 1px solid #ccc;border-right: 0;display: flex;align-items: center;justify-content: center;}
+main .goods .floor .listBottom li:last-child{border-right: 1px solid #ccc;}
+main .goods .floor .listBottom li a{display:block;height:66px;width: 100%;display: flex;align-items: center;justify-content: center;}
+
