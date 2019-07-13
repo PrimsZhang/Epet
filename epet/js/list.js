@@ -29,7 +29,6 @@ $(function(){
             </li>`;
             }
             this.ul.html(str);
-            $(".intru").find("h3").text(str2)
             console.log(str)
         }
         add(){
