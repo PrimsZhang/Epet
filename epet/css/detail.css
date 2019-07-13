@@ -22,12 +22,14 @@ header{border-bottom:2px solid #459d36}
 #product #picBox .photoB .pic:first-child{display: block;}
 #product #picBox ul{display: flex;margin-top: 20px;}
 #product #picBox ul li{border: 1px solid #ccc;margin:0 15px;width:70px;height:70px;}
-#product #picBox ul li img{width:70px;height:70px;} */ */
+#product #picBox ul li img{width:70px;height:70px;} */ 
+
 #product  .photoB .pic{}
-#product  .photoB .pic .smallPic{width: 300px;height: 300px}
+#product  .photoB .pic .smallPic{width: 300px;height: 300px;position: relative;}
 #product  .photoB .pic .smallPic img{width: 300px;height: 300px}
-#product  .photoB .pic .smallPic span{width: 75px;height: 75px;}
-#product  .photoB .pic .bigPic{display: none}
+#product  .photoB .pic .smallPic span{width: 75px;height: 75px;position: absolute;left: 0;top: 0;background: rgba(200,200,200,.6);display: none;}
+#product  .photoB .pic .bigPic{display: none;position: absolute;left: 800px;top: 200px;overflow: hidden;display: none;}
+#product  .photoB .pic .bigPic img{position: absolute;}
 
 #product .intru{margin-left: 80px;}
 #product .intru h3{font:25px/2 "";}
