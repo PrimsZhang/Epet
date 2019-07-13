@@ -16,8 +16,20 @@
 #main .margin .list .shelf .top div span{font:14px/40px "";color: #666;width: 110px;text-align: right}
 #main .margin .list .shelf .top div ul{display: flex;border-bottom: 1px dashed #ccc;}
 #main .margin .list .shelf .top div ul li{font:14px/40px "";margin:0 10px;cursor: pointer;}
+#main .margin .list .shelf .top div ul li:hover{background:#ff6302;}
+#main .margin .list .shelf .top div ul li:hover a{color: #fff;}
 #main .margin .list .shelf .top div ul li a{display: block}
 #main .margin .list .shelf .top div:first-child ul{border-top: 1px solid #ccc;border-left: 1px solid #ccc;width: 804px;flex-wrap: wrap;border-bottom: 0}
 #main .margin .list .shelf .top div:first-child ul li{margin:0;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;width:133px;text-align: center}
 #main .margin .list .shelf .top div:first-child{padding-top: 30px}
 #main .margin .list .shelf .top div:last-child{padding-bottom: 30px;}
+
+#data{background: #f5f5f5;}
+#data .margin{width: 1200px;margin: 0 auto;padding-top: 20px;}
+#data .margin ul{display: flex;flex-wrap: wrap;}
+#data .margin ul li{width:270px;margin:0 10px 20px;background: #fff}
+#data .margin ul li a{display: block;overflow: hidden;}
+#data .margin ul li a img{width:200px;height:200px;margin:0 auto;display: block;margin: 10px auto 0;}
+#data .margin ul li a p{width: 200px;margin: 10px auto 0;font:14px/2 "";}
+#data .margin ul li a span{margin:10px 0 0 35px;font: 16px/2 "";color: #ff6302;}
+#data .margin ul li a em{display: block;margin:10px 0 0 35px;font: 12px/2 "";}

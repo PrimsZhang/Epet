@@ -55,7 +55,5 @@ class Magnifie{
     }
 }
 
-onload = function(){
+    new Magnifie($("#product .picBox .photoB .pic"))
     new Magnifie($("#magfBox"));
-    new Magnifie($("#magfBox2"));
-}

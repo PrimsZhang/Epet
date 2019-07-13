@@ -2,27 +2,14 @@ header{border-bottom:2px solid #459d36}
 #product{width:1200px;margin: 0 auto;padding-top: 40px;display: flex}
 
 
-#product .picBox{width:450px;height:460px;border:1px solid red;}
-#product .picBox .photoS{height:160px;width:450px;border:1px solid grey;}
+#product .picBox{width:450px;height:460px;}
+#product .picBox .photoS{height:160px;width:450px;}
 #product .picBox .photoS ul{list-style:none;height:100px;display: flex;justify-content: space-between;align-items: center;margin-top:20px;}
 #product .picBox .photoS ul li{display:block;border:1px solid #ccc;width: 75px;height:75px;}
 #product .picBox .photoB div:first-child{display: block}
-#product .picBox .photoB div{width:300px;height:300px;border:1px solid #ff4200;display:none;}
+#product .picBox .photoB div{width:300px;height:300px;display:none;}
 #product .picBox .photoS ul li img{width: 75px;height: 75px;}
 #product .picBox .photoB{width:450px;height:300px;display: flex;justify-content: center}
-/* #product #picBox{margin-left:60px;}
-#product #picBox .photoB{margin-left: 60px;}
-#product #picBox .photoB .pic{display: none;height:300px;}
-#product #picBox .photoB .pic .smallPic{width:300px;height:300px;border: 1px solid #ccc;position: relative;}
-#product #picBox .photoB .pic .smallPic img{width:300px;height: 300px;}
-#product #picBox .photoB .pic .smallPic span{width:75px;height:75px;position: absolute;left: 0;top: 0;background: rgba(200,200,200,.6);display: none;cursor: move}
-#product #picBox .photoB .pic .bigPic{width: 300px;height: 300px;position: absolute;left: 800px;top: 225px;overflow: hidden;display: none;border: 1px solid #000;z-index: 2;}
-#product #picBox .photoB .pic .bigPic img{width: 1200px;height: 1200px;position: absolute;} */
-/* 
-#product #picBox .photoB .pic:first-child{display: block;}
-#product #picBox ul{display: flex;margin-top: 20px;}
-#product #picBox ul li{border: 1px solid #ccc;margin:0 15px;width:70px;height:70px;}
-#product #picBox ul li img{width:70px;height:70px;} */ 
 
 #product  .photoB .pic{}
 #product  .photoB .pic .smallPic{width: 300px;height: 300px;position: relative;}
@@ -30,6 +17,7 @@ header{border-bottom:2px solid #459d36}
 #product  .photoB .pic .smallPic span{width: 75px;height: 75px;position: absolute;left: 0;top: 0;background: rgba(200,200,200,.6);display: none;}
 #product  .photoB .pic .bigPic{display: none;position: absolute;left: 800px;top: 200px;overflow: hidden;display: none;}
 #product  .photoB .pic .bigPic img{position: absolute;}
+#product  .photoB .picb img{width: 300px;height: 300px}
 
 #product .intru{margin-left: 80px;}
 #product .intru h3{font:25px/2 "";}
