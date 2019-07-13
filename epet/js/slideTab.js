@@ -36,4 +36,3 @@ onload = function(){
     new Tab($("#menuTab"));
     new Tab($("#brandTab"));
 }
-new Tab($("#picBox"));

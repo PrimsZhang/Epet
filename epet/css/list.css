@@ -3,9 +3,21 @@
 #main .margin .cla{display: flex;}
 #main .margin .cla select{display: block;font:15px/20px "";margin: 20px 10px;width:100px;}
 
-#main .margin .list{}
-#main .margin .list dl{background: #fff;width: 150px;text-align: center;cursor: pointer;}
+#main .margin .list{display: flex;}
+#main .margin .list dl{background: #fff;width: 150px;text-align: center;cursor: pointer;border:1px solid #ccc;}
 #main .margin .list dl dt{font:700 15px/2 "";}
 #main .margin .list dl dd a{display: flex}
 #main .margin .list dl dd{font:15px/2 "";border-top: 1px solid #ccc;margin:0 10px;}
 #main .margin .list dl dd i{display: block;width: 30px;height: 30px;background:url(../img/milk.jpg) no-repeat;margin: 5px 0;}
+
+#main .margin .list .shelf{margin-left: 30px;width: 980px;}
+#main .margin .list .shelf .top{background: #fff;}
+#main .margin .list .shelf .top div{display: flex;margin-left: 20px;}
+#main .margin .list .shelf .top div span{font:14px/40px "";color: #666;width: 110px;text-align: right}
+#main .margin .list .shelf .top div ul{display: flex;border-bottom: 1px dashed #ccc;}
+#main .margin .list .shelf .top div ul li{font:14px/40px "";margin:0 10px;cursor: pointer;}
+#main .margin .list .shelf .top div ul li a{display: block}
+#main .margin .list .shelf .top div:first-child ul{border-top: 1px solid #ccc;border-left: 1px solid #ccc;width: 804px;flex-wrap: wrap;border-bottom: 0}
+#main .margin .list .shelf .top div:first-child ul li{margin:0;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;width:133px;text-align: center}
+#main .margin .list .shelf .top div:first-child{padding-top: 30px}
+#main .margin .list .shelf .top div:last-child{padding-bottom: 30px;}
